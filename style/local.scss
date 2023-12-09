@@ -1,0 +1,371 @@
+@media screen and (max-width:575px) {
+    header{
+        nav{
+            padding-right: 5% !important;
+        }
+    }
+    #motto{
+        >.row{
+            >article{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                text-align: center;
+                >h4{
+                    font-size: 18px;
+                }
+                >h1{
+                    font-size: 128px;
+                }
+                >p{
+                    font-size: 19px;
+                }
+            }
+        }
+    }
+    #about{
+        >.row{
+            >figure{
+                >img{
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+    #SignUp{
+        >.row{
+            >form{
+                background: #CEDDE6;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                >section{
+                    >span{
+                        margin-top: 6px !important;
+                        left: 17.4%;
+                    }
+                }
+            }
+        }
+    }
+    #banner{
+        >.row{
+            >article{
+                margin-top: 4.6rem !important;
+                text-align: center;
+                >h2{
+                    font-size: 35px;
+                    line-height: 57px;
+                }
+                >div{justify-content: center;}
+            }
+            figure{
+                margin-bottom: 2.9rem !important;
+            }
+        }
+    }
+    #different{
+        >.row{
+            figure{
+                margin-top: 2rem !important;
+            }
+        }
+}
+footer{
+    >.row{
+        >ul{
+            >h3{
+                margin-bottom: .9rem !important;
+            }
+            >li{
+                margin: 1rem 0 !important;
+            }
+            >h6{
+                margin: 1rem 0 !important;
+            }
+        }
+    }
+}
+#address{
+    width: 100%;
+}
+#btn-go-to{
+    width: 100%;
+}
+#mottoProducts{
+    >.row{
+        >article{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            >h2{
+                font-size: 2.6rem;
+            }
+            >p{
+                font-size: 19px;
+            }
+        }
+    }
+}
+}
+@media screen and (min-width:576px) {
+    header{
+        nav{
+            padding-right: 5% !important;
+        }
+    }
+    #motto{
+        >.row{
+            >article{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                text-align: center;
+                >h4{
+                    font-size: 18px;
+                }
+                >h1{
+                    font-size: 128px;
+                }
+                >p{
+                    font-size: 19px;
+                }
+            }
+        }
+    }
+    #about{
+        >.row{
+            >figure{
+                >img{
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+    #SignUp{
+        >.row{
+            >form{
+                background: #CEDDE6;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                >section{
+                    >span{
+                        margin-top: 6px !important;
+                        left: 17.4%;
+                    }
+                }
+            }
+        }
+    }
+    #banner{
+        >.row{
+            >article{
+                margin-top: 4.6rem !important;
+                text-align: center;
+                >h2{
+                    font-size: 35px;
+                    line-height: 57px;
+                }
+                >div{justify-content: center;}
+            }
+            figure{
+                margin-bottom: 2.9rem !important;
+            }
+        }
+    }
+    #different{
+        >.row{
+            figure{
+                margin-top: 1rem !important;
+            }
+        }
+}
+footer{
+    >.row{
+        >ul{
+            >h3{
+                margin-bottom: .9rem !important;
+            }
+            >li{
+                margin: 1rem 0 !important;
+            }
+            >h6{
+                margin: 1rem 0 !important;
+            }
+        }
+    }
+}
+#address{
+    width: 100%;
+}
+#btn-go-to{
+    width: 100%;
+}
+#mottoProducts{
+    >.row{
+        >article{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            >h2{
+                font-size: 2.9rem;
+            }
+            >p{
+                font-size: 19px;
+            }
+        }
+    }
+}
+}
+@media screen and (min-width:768px) {
+    header{
+        nav{
+            padding-right: 2% !important;
+        }
+    }
+    #SignUp{
+        >.row{
+            >form{
+                background: #CEDDE6;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                >section{
+                    >span{
+                        margin-top: 5px !important;
+                        left: 15.6%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width:992px) {
+    #SignUp{
+        >.row{
+            >form{
+                background: #CEDDE6;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                >section{
+                    >span{
+                        margin-top: 5px !important;
+                        left: 15.3%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width:1200px) {
+    #motto{
+        >.row{
+            >article{
+                display: flex;
+                justify-content: start;
+                text-align: left;
+                >h4{
+                    font-size: 22px;
+                }
+                >h1{
+                    font-size: 220px;
+                }
+                >p{
+                    font-size: 20px;
+                }
+            }
+        }
+    } 
+    #menu{
+        .row{
+            >article{
+                width: 23.1111% !important;
+                &:nth-of-type(1), &:nth-of-type(4){
+                    scale: .96;
+                }
+                &:nth-of-type(2), &:nth-of-type(3){
+                    scale: 1.02;
+                }
+            }
+        }
+    }
+    #different{
+        >.row{
+            >article{
+                width: 23.1111% !important;
+            }
+        }
+    }
+    #banner{
+        >.row{
+            >article{
+                text-align: left;
+                >h2{
+                    font-size: 54px;
+                    line-height: 1.2;
+                }
+                >div{justify-content: flex-start;}
+            }
+            >figure{
+                margin-top: 3.7rem !important;
+            }
+        }
+    }
+    #different{
+        >.row{
+            figure{
+                margin-top: 0 !important;
+            }
+        }
+    }
+    footer{
+        >.row{
+            >ul{
+                >h3{
+                    margin-bottom: 0 !important;
+                }
+                >li{
+                    margin: 0 !important;
+                }
+                >h6{
+                    margin: 0 !important;
+                }
+            }
+        }
+    }
+    #address{
+        width: 70%;
+    }
+    #btn-go-to{
+        width: 70%;
+    }
+    #mottoProducts{
+        >.row{
+            >article{
+                display: flex;
+                justify-content: start;
+                text-align: left;
+                >h2{
+                    font-size: 3.4rem;
+                }
+                >p{
+                    font-size: 20px;
+                }
+            }
+        }
+    } 
+    #products{
+        >.row{
+            >.title{
+                margin-bottom: 4rem !important;
+            }
+        }
+    }
+}
+@media screen and (min-width:1400px) {
+    
+}
